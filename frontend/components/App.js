@@ -9,14 +9,7 @@ function App() {
   // ❗ Create state to hold the data from the API
 
   const [people, setPeople] = useState([]);
-  //const [selected, setSelected] = useState(false);
-  
-  // const selectedDetails = id =>{
-  //   setSelected(people.homeworld.name)
-  // }
-  // const notSelectedDetails = () =>{
-  //   setSelected(null)
-  // }
+
 
   console.log(people)
   // ❗ Create effects to fetch the data and put it in state
